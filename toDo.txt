@@ -1,0 +1,11 @@
+~ refactor index.js so it actually reads like an index
++ allow multiple tags to be filtered rather than just one
++ allow for user and title to be filtered from
++ take advantage of Write-Ahead Logging
++ This really really needs error handling
++ add tag suggestions/autocomplete for website as well
++ send initial posts on inital GET
+~ consolidate slack POST methods, maybe trade out for their library?
+~ Fix weird slack url rejecting issue (can't find it now)
++ slack image block 
+~ update package and app jsons
