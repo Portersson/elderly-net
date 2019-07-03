@@ -1,0 +1,93 @@
+img{
+  object-fit: cover;
+  background: url(https://cdn.glitch.com/743c565f-5240-4ff7-8c94-3585e5fb66f1%2Flamp.svg?v=1561418491684);
+  background-repeat: round;
+}
+
+.content{
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  min-width: 15em;
+  max-width: 1300px;
+  margin: 15px;
+}
+
+.card-image{
+  flex: 1 20;
+  display: inline-block;
+  min-width: 16.5em;
+  max-height: fit-content;
+}
+.card-content{
+  flex: 2 1;
+  display: flex;
+  min-width: 55%;
+  padding: 1em;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content{
+  flex: 2 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-footer{
+  display: flex;
+  position: relative;
+  align-items: center;
+  top: .35em;
+  justify-content: space-between;
+  width:100%
+  border-top: 1px solid lightgray;
+  font-size .95em;
+  color: gray;
+}
+
+.card-title{
+  bottom: .35em;
+  position: relative;
+}
+
+.input{
+  
+}
+
+.card-tags{
+}
+.card-id{
+  
+}
+
+button.delete{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 3px, 3px;
+  opacity: 0;
+  background-color: #ff3860;
+  transition: 0.3s;
+}
+div.card:hover > button.delete {
+  opacity: 1;
+  transition: 0.3s;
+}
